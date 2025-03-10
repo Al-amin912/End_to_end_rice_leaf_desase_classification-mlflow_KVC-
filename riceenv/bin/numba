@@ -1,0 +1,8 @@
+#!/home/al-amin/Desktop/end_to_end_project/End_to_end_rice_leaf_desase_classification_mlflow_DVC/riceenv/bin/python3
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.misc.numba_entry import main
+
+if __name__ == "__main__":
+    main()
