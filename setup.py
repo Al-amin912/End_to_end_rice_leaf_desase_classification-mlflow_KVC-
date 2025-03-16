@@ -7,8 +7,6 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "End_to_end_rice_leaf_desase_classification_mlflow_DVC"
-
-
 AUTHOR_USER_NAME = "Al-amin912"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "mda04232@gmail.com"
