@@ -30,3 +30,10 @@
 [dagshub](https://dagshub.com/)
 
 
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/moralallamin/End_to_end_rice_leaf_desase_classification_mlflow_DVC.mlflow
+export MLFLOW_TRACKING_USERNAME=moralallamin
+export MLFLOW_TRACKING_PASSWORD=3a61097042b38d67ca8b021d7064666da8a78c50
+
+```
