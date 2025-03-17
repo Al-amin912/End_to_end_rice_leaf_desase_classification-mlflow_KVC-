@@ -24,9 +24,14 @@ class PredictionPipeline:
         result = np.argmax(model.predict(test_image), axis=1)
         print(result)
 
-        if result[0] == 1:
-            prediction = 'Normal'
-            return [{ "image" : prediction}]
+        if result[0] == 0:
+            prediction = 'Bacterial leaf blight'
+        elif result[0] == 1:
+            prediction = 'Brown spot'
         else:
-            prediction = 'Adenocarcinoma Cancer'
-            return [{ "image" : prediction}]
+            prediction = 'Leaf smut'
+
+        return [{ "image": prediction }]
+
+
+ 
